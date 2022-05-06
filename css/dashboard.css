@@ -1,0 +1,32 @@
+.logoMiniPanel {
+	width: 100%;
+	line-height: 20px;
+}
+@media (max-width: 767px) {
+	.logoMiniPanel {
+		height: 50px;
+		width: auto;
+		float: left;
+	}
+}
+
+/*navbar edits*/
+.navbar-default {
+	background-color: #083d77;
+	border-color: #305f92;
+}
+.navbar-default .navbar-brand {
+	color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #ffffff;
+}
+.navbar-default .navbar-text {
+	color: #ecf0f1;
+}
+.navbar-default .navbar-nav-edit a:hover {
+	background: #305f92;
+	color: #FFF;
+}
+/*end*/

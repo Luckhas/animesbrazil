@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'bebas_kairegular';
+    src: url('../fonts/bebaskai-regular-webfont.eot');
+    src: url('../fonts/bebaskai-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebaskai-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebaskai-regular-webfont.woff') format('woff'),
+         url('../fonts/bebaskai-regular-webfont.ttf') format('truetype'),
+         url('../fonts/bebaskai-regular-webfont.svg#bebas_kairegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: "bebas_kairegular";
+	background-color: #140F2D;
+}
+.headerBar {
+	height: 70px;
+	background-color: #D81E5B;
+	color: #FFF;
+	font-style: italic;
+	font-size: 20px;
+}
+.topBarRow {
+	margin-top: 16px;
+}
+.logo {
+	height: 38px;
+	padding: 0;
+	background-image: url("../img/logo.png");
+	background-size: auto 38px;
+	background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+	.logo {
+		background-image: url("../img/logo_mini.png");
+	}
+}
+.slogan {
+	margin-top: 5px;
+}
+.carouselBlackBox {
+	width: 100%;
+	font-size: 38px;
+	background-color: rgba(0,0,0,0.5);
+}
+.carouselBlackBox span {
+	color: #F45B69;
+}
+.menu {
+	height: 70px;
+	background-color: #FFFFFA;
+	border: 5px solid #F45B69;
+}
+/*navbar-default alterations*/
+.navbar-default {
+	margin-top: 5px;
+    background-color: #FFFFFA;
+    border: none;
+    /*border-color: #f45b69;*/
+    font-size: 20px;
+}
+.navbar-default .navbar-brand {
+    color: #F45B69;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FF757E;
+}
+.navbar-default .navbar-text {
+    color: #F45B69;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #F45B69;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FF757E;
+    border-bottom: 3px solid #F45B69;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FF757E;
+    background-color: #F45B69;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #FF757E;
+    background-color: #F45B69;
+}
+.navbar-default .navbar-toggle {
+    border-color: #F45B69;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #F45B69;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #F45B69;
+}
+.navbar-default .navbar-link {
+    color: #F45B69;
+}
+.navbar-default .navbar-link:hover {
+    color: #FF757E;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: #F45B69;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #FF757E;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #FF757E;
+      background-color: #F45B69;
+  }
+}
+/*end*/
+
+.postArea, .recommended {
+	background-color: #FFFFFA;
+	border: 2px solid #F45B69;
+	border-radius: 5px 5px 0 0;
+	margin-top: 10px;
+}
+.feedTitle {
+	font-size: 30px;
+	color: #F45B69;
+	margin: 10px 0 5px 0;
+}
+.recommended {
+	padding-top: 20px;
+}
+.recommended .panel-heading h3 {
+	color: #F45B69;
+}
+.thumbnailsAnimes {
+	width: 200px;
+	height: 300px;
+	margin: 9px;
+	display: inline-block;
+	position: relative;
+}
+.animeData {
+	width: 200px;
+	height: 300px;
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	color: #FFF;
+	z-index: 999;
+	padding-top: 110px;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+.animeData:hover, .animeData:active {
+	opacity: 100;
+}
+.animeData span {
+	font-size: 60px;
+}
+.animeData .animeName {
+	word-wrap: break-word;
+	font-size: 20px;
+}
+.footer {
+	background-color: #D81E5B;
+	color: #FFF;
+	font-size: 24px;
+	padding: 15px;
+}
